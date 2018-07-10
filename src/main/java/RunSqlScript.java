@@ -17,7 +17,7 @@ public class RunSqlScript {
 	/**
 	 * @param args the command line arguments
 	 */
-	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+	public static void main() throws ClassNotFoundException, SQLException {
 		String aSQLScriptFilePath = "/home/ypustova/Desktop/bookStore/src/main/resources/db/02-insert.sql";
 		// Create MySql Connection
 		Class.forName("com.mysql.jdbc.Driver");
